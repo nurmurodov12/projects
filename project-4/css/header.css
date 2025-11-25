@@ -1,0 +1,165 @@
+.header-section {
+    margin: 35px 10px;
+
+}
+
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo span {
+    font-weight: bolder;
+}
+
+.logo p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.navigation-items {
+    display: flex;
+    gap: 35px;
+
+}
+
+.navigation-item {
+    color: #4F5665;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.header-section__nav {
+    display: flex;
+
+}
+
+.active {
+    color: black;
+}
+
+.navigation-item:hover {
+    color: aqua;
+}
+
+.sign-up {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.sign-up p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sign-up button {
+    border: 1px solid #F53855;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: rgba(255, 222, 173, 0);
+    color: #F53855;
+    transition: all 0.2s ease-in;
+}
+
+.sign-up button:hover {
+    background-color: #F53855;
+    color: white;
+}
+
+.home-page {
+    padding: 60px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-page img {
+    width: 611px;
+}
+
+.home-page h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 70px;
+    margin-bottom: 15px;
+}
+
+.home-page h1 span {
+    font-weight: bold;
+}
+
+.home-page p {
+    color: #4F5665;
+    margin-bottom: 50px;
+}
+
+.home-page p span {
+    font-weight: bold;
+    line-height: 30px;
+
+}
+
+.home-page button {
+    background-color: #F53838;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.home-page button:hover {
+    box-shadow: 1px 9px 8px #F53838;
+}
+
+.statistics {
+    margin: 40px 10px;
+    width: 100%;
+    max-width: 1200px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+}
+
+.statistic-info {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 25px;
+    width: 350px;
+    height: 100px;
+    border-right: 2px solid #EEEFF2;
+}
+.number-info .number-info__subtitle {
+    color: #4F5665;
+}
+
+.icons {
+    width: 55px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: #FFECEC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-none {
+    border: none;
+}

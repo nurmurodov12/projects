@@ -1,0 +1,53 @@
+/* core styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+html {
+    scroll-behavior: smooth
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: rubik;
+}
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    height: auto;
+    
+}
+
+.icons i {
+    color: #F53838;
+    background-color: transparent;
+}
+.number-info__number {
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.number-info__number p{
+    color: #4F5665;
+}
+.section-title {
+    width: 100%;
+    font-weight: 200;
+    font-size: 15px;
+    color: #0B132A;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.number-info .number-info_subtitle {
+    color: #4F5665;
+}
+
+.section-subtitle {
+    color: #4F5665;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 30px;
+    text-align: center;
+}
