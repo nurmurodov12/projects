@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Orbitron;
+}
+
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.header-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-left {
+  height: 900px;
+  width: 50%;
+  background-color: #000000;
+  padding: 19px;
+}
+
+.header-right {
+  width: 50%;
+  height: 900px;
+  background-color: #57b8ff;
+  padding: 20px;
+  /* display: flex; */
+  justify-content: space-between;
+}
+.right-nav {
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo h2 {
+  color: white;
+}
+
+.left-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 62px;
+}
+
+.left-navigation a {
+  text-decoration: none;
+  color: white;
+  margin-left: 45px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.left-navigation {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.left-navigation .active {
+  color: #fac422;
+}
+
+.right-navigation a {
+  text-decoration: none;
+  color: white;
+  margin-left: 45px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.right-contact {
+  /* display: flex; */
+  align-items: center;
+  gap: 20px;
+  margin-left: 10px;
+}
+
+.right-contact button {
+  padding: 10px 7px;
+  background-color: rgba(0, 0, 255, 0);
+  border: 1px solid white;
+  color: white;
+}
+
+.right-navigation {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.right-contact {
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+
+.home-page {
+  margin-top: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-subtitle {
+  color: #57b8ff;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.home-title {
+  font-size: 50px;
+  color: white;
+  font-weight: 400;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.home-description {
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.btns {
+  margin-left: 20px;
+  display: flex;
+  gap: 20px;
+}
+.btn-first {
+  padding: 20px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #57b8ff;
+  border: none;
+}
+
+.btn-second {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+}
+
+.home-img {
+  width: 660px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.home-img img {
+  width: 100%;
+}
+
+.sponsors-section {
+  width: 100%;
+  height: 450px;
+  background-color: #fdd04a;
+}
+
+.sponsors-section h1 {
+  font-weight: 400;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 40px;
+}
+
+.sponsors-section p {
+  color: #555555;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+
+.sponsor img {
+  width: 60px;
+}
+.sponsors {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.center {
+  text-align: center;
+}
+
+.game-shop__section {
+  padding: 80px 20px;
+  min-width: 1200px;
+  width: 100%;
+  height: 900px;
+  background: url("../image/shop-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shop-card {
+  width: 600px;
+  height: 212px;
+  border-radius: 20px;
+  background-color: #ffffff26;
+  display: flex;
+  padding: 40px 60px;
+}
+.shop-title {
+  font-weight: 400;
+  color: white;
+  margin-bottom: 25px;
+  margin-left: 10px;
+}
+
+.shop-subtitle {
+  color: #dfdfdfcc;
+  margin-left: 10px;
+}
+.shop-card img {
+  width: 16px;
+  height: 16px;
+}
+.shop-cards {
+  width: 100%;
+  min-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.music-section {
+  padding: 80px 20px;
+  background-color: #000000;
+  width: 100%;
+  height: 600px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.info {
+  width: 50%;
+}
+
+.info button {
+  margin-left: 19px;
+}
+
+.music-background {
+  width: 50%;
+  height: 100%;
+  background: url("../image/music\ sectionimg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-section {
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.FPS {
+  width: 433px;
+  height: 100%;
+  background: url("../image/smoothing\ fps.png");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  gap: 10px;
+}
+
+.multiplayer {
+  width: 433px;
+  height: 100%;
+  background: url("../image/multiplayer.png");
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  gap: 10px;
+}
+
+.open-word {
+  width: 433px;
+  height: 100%;
+  background: url("../image/open\ word.png");
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 200;
+  gap: 10px;
+}
+
+.game-club__section {
+  background-color: #000000;
+  width: 100%;
+  height: auto;
+}
+
+.game-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+
+.game-club {
+  padding-top: 7px;
+  padding-left: 30px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+
+.ps {
+  width: 50%;
+  padding-top: 40px;
+}
+
+.ps img {
+  width: 500px;
+}
+
+.ps p {
+  color: #57b8ff;
+  margin-top: 20px;
+}
+.ps h2 {
+  color: white;
+  font-weight: 400;
+  margin-top: 15px;
+}
+.computer {
+  width: 50%;
+  min-width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding-top: 40px;
+  padding-right: 30px;
+  
+}
+.computer-child p {
+  color: #57b8ff;
+  margin-top: 20px;
+}
+
+.computer-child h2 {
+  color: white;
+  font-weight: 300;
+}
+.footer-section {
+  width: 100%;
+  height: 450px;
+  background: url('../image/footer.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 40px;
+}
+.footer-section p {
+  text-align: center;
+  font-size: 18px;
+  color: #555555;
+}
+.footer-section h1 {
+  font-weight: 400;
+  font-size: 60px;
+}
+
+.p-footer {
+  width: 847px;
+}
+
+.login input {
+  width: 400px;
+  background-color: white;
+  border: none  ;
+  padding: 15px;
+
+
+}
+.login input::placeholder {
+  color: #555555;
+}
+
+.login button {
+  color: white;
+  padding: 15px;
+  background-color: #57b8ff;
+  border: none;
+  margin-left: -5px;
+}
