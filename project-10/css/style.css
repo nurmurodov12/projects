@@ -398,7 +398,12 @@ body {
 }
 
 @media (max-width: 512px) {
+    .home-page {
+        align-items: start;
+        
+    }
     .section-title {
+    
         font-size: 30px;
     }
 
@@ -425,7 +430,7 @@ body {
     .cards {
         min-width: 510px;
         gap: 20px;
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .contact-us {
@@ -438,6 +443,21 @@ body {
     }
 }
 
+@media (max-width: 430px) {
+    body {
+        overflow-x: hidden;
+    }
+    .section-title {
+        font-size: 18px;
+    }
+    .home-right img {
+        width: 250px;
+    }
+    .section-subtitle {
+        width: 250px;
+        font-size: 15px;
+    }
+}
 @media (max-width: 320px) {
     .welcome-to {
         min-width: 300px;
